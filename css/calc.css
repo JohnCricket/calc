@@ -1,0 +1,103 @@
+body {
+  color: #FFF;
+  background: #191818;
+  font-weight:400;
+  font-size:1.3em;
+  line-height:2em;
+  text-align: center;
+}
+footer {
+  color: #FFF;
+  background: #191818;
+}
+footer a, footer a:visited {
+  color: #FFF;
+  background: #191818;
+  text-decoration: none;
+}
+.wrapper {
+  color:#191818c5;
+  background:#FFF;
+  padding:5rem 0 2rem;
+}
+
+.main {
+  text-align:left;
+  margin:2rem auto;
+  width:75%;
+}
+
+.calc {
+  padding:1rem;
+  margin:1rem auto;
+  border:solid 1px #191818c5;
+  background:#e2e2e6;
+  color:#191818c5;
+  border-radius: 8px 8px 0 0;
+}
+
+.flex {
+  width:60%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 3rem auto;
+  padding: 0.3rem;
+}
+
+.col {
+  margin: 0;
+  text-align: left;
+  color:#964747
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+p {
+  font-size:1em;
+}
+
+a {
+  background: #FFF;
+  color:#191818c5;
+}
+
+pre {
+  font-weight:600;
+  font-size:1.1rem;
+  color:#191818c5;
+}
+
+dl {
+  counter-reset: section;
+}
+
+dt::before {
+  counter-increment: section;
+  content: counter(section) "ª função: ";
+}
+
+dt {
+  border: solid 1px #191818c5;
+  background: #e2e2e6;
+  color:#191818c5;
+  padding:.2rem .8rem;
+  margin-bottom:1.5rem;
+  border-radius: 8px 8px 0 0;
+}
+
+ul {
+  list-style:none;
+}
+.code {
+  font-family: monospace;
+  font-weight: 600;
+  font-size:130%;
+}
